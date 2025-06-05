@@ -12,7 +12,7 @@
 
 *MENTOR*: NEELA SANTOSH
 
-##This project is a simple, responsive, and interactive quiz application built using HTML, CSS, and JavaScript. The design and functionality are split across three main files: index.html, style.css, and script.js, each responsible for structure, styling, and logic respectively.
+##This project is a simple, responsive, and interactive quiz application built using HTML, CSS, and JavaScript. The design and functionality are split across three main files: index.html, style.css, and script.js, each responsible for structure, styling, and logic, respectively.
 
 1. index.html
 The index.html file serves as the structural foundation of the quiz. It uses standard HTML5 elements to lay out a quiz interface. The page includes a central <div> element with the ID box, which contains:
@@ -40,4 +40,5 @@ An array of question objects, each with the question text, four options labeled 
 A set of functions to load questions (loadQuestion()), check user answers (getAnswer()), evaluate correctness (submitQuiz()), reset inputs (reset()), and display results (endQuiz()).
 
 When a user selects an answer and clicks the submit button, their response is checked against the correct answer. Their score is tracked using right and wrong counters. After the final question, the endQuiz() function dynamically updates the HTML to show the score, percentage, and a “Play Again” button that reloads the page.
+
 
