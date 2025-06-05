@@ -41,4 +41,8 @@ A set of functions to load questions (loadQuestion()), check user answers (getAn
 
 When a user selects an answer and clicks the submit button, their response is checked against the correct answer. Their score is tracked using right and wrong counters. After the final question, the endQuiz() function dynamically updates the HTML to show the score, percentage, and a “Play Again” button that reloads the page.
 
+#OUTPUT
+
+![Image](https://github.com/user-attachments/assets/504aae23-a338-45ce-9c0d-11d006904154)
+
 
